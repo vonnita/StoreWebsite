@@ -1,0 +1,24 @@
+.fluffy{
+	color: red;
+	font-size: 2em;
+}
+p{
+    font-family: arial;
+}
+#green{
+	color: green;
+	font-size:2em;
+}
+h1{
+	font-family: arial;
+}
+.fluffy, #green{
+background-color: yellow;
+}
+body{
+background-color: aquamarine;
+}
+
+div p{
+	font-size: 18em;
+}

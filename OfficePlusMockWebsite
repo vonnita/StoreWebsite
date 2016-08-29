@@ -1,0 +1,52 @@
+//HTML
+
+<html>
+<body>
+  <h5> Use promo code:V15 for 15% off your purchase! </h5> 
+  
+<h1> Office+ </h1>                       
+  <h2>The most trusted site to purchase school supplies.</h2>
+  
+
+<button type="button"
+ onclick="document.write('e1,e2,e3,e4 />')
+('electronicsItems').innerHTML = electronicsItems()">
+  Electronics</button>
+  
+  <button type="button"
+onclick="document.wite('demo').innerHTML = Date()">
+  Furniture</button>
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+  School Supplies</button>
+  
+  <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+  Books</button>
+
+
+
+
+<p id="demo"></p>
+
+</body>
+</html>
+//CSS
+body {
+  background-color: #a3d5d3;
+}
+
+<script>
+  electronicsItems("Ear Bud Headphones", "Toshiba Laptop", "Macbook Pro", "Wireless Printer")
+function electronicsItems(e1,e2,e3,e4)
+
+furnitureItems("Desk", "Chair", "Desk Lamp")
+function furnitureItems(f1,f2,f3)
+
+officeSupplies("Notebook","12ct Black Pens", "12ct Blue Pens", "24ct Color Pencils", "24ct Markers","4ct Highlighters",
+function officeSupplies(o1,o2,o3,o4,o5,o6)
+
+bookItems("Java:A Beginner's Guide, 9th Ed.","Head First Java, 2nd Ed.", "Learning MySQL, JavaScript,& CSS")
+</script>
+
+*
